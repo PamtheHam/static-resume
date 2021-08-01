@@ -2,34 +2,50 @@
 
 * {
     padding: 0;
-    margin: 0;
-    font-family: 'Gowun Batang', serif;
-
+    margin: 0px;
+    font-family: 'Patrick Hand', cursive;
 }
 
 
-#vertical-tile{
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 400px;
+main {
+  background-color: navajowhite;
 }
 
-.work-history{
-    margin: 5px 5px;
-   
+#header, #footer {
+    border-radius: 14px;
+    background-color: rgb(195, 243, 248);
+    border: solid grey 4px; 
+
 }
 
-#header{
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+#info {
+    background-color: rgb(253, 253, 212);
+    border-radius: 14px;
+    border: solid grey 4px;
 }
 
-#footer {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+#work {
+    background-color: rgb(255, 233, 213);
+    border: solid grey 4px;
+    border-radius: 14px;
 }
 
-.title {
+h2, h3{
     text-decoration: underline;
+}
+
+ul li{
+    list-style-type: square;
+}
+
+img {
+    border-radius: 30%;
+}
+
+header {
+    margin-bottom: 4px;
+}
+
+footer {
+    margin-top: 4px;
 }
