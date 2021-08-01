@@ -30,10 +30,6 @@ main {
     border-radius: 14px;
 }
 
-h2, h3 {
-    text-decoration: underline;
-}
-
 ul li{
     list-style-type: square;
 }
@@ -52,8 +48,4 @@ footer {
 
 .circle-list li{
  list-style-type: disc;
-}
-
-#info h4 {
-    text-decoration: underline;
 }
