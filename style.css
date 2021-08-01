@@ -30,7 +30,7 @@ main {
     border-radius: 14px;
 }
 
-h2, h3{
+h2, h3 {
     text-decoration: underline;
 }
 
@@ -48,4 +48,12 @@ header {
 
 footer {
     margin-top: 4px;
+}
+
+.circle-list li{
+ list-style-type: disc;
+}
+
+#info h4 {
+    text-decoration: underline;
 }
